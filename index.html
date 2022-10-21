@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="./css.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container">
+			<button class="clear-cards-btn">Clear cards</button>
+			<h1 class="add-card">Memory Cards <button class="btn btn-small" id="show">Add new card</button></h1>
+			<div class="memory-cards-container">
+				<div class="card active">
+					<div class="inner-card">
+						<div class="inner-card-front">
+							<p>What is javascript</p>
+						</div>
+						<div class="inner-card-back">javascript is a programming language, developed by Mozzila back in nineteen ninethy something</div>
+					</div>
+				</div>
+				<div class="card">
+					<div class="inner-card">
+						<div class="inner-card-front">
+							<p>What is javascript</p>
+						</div>
+						<div class="inner-card-back">javascript is a programming language, developed by Mozzila back in nineteen ninethy something</div>
+					</div>
+				</div>
+			</div>
+			<div class="card-navigation">
+				<i class="fas fa-arrow-left"></i>
+				<p class="current-card">1</p>
+				<i class="fas fa-arrow-right"></i>
+			</div>
+
+			<div id="add-container" class="add-container">
+				<h1>Add new card <button class="btn btn-small btn-ghost" id="hide">x</button></h1>
+				<div class="form-control">
+					<label for="question">Question</label>
+					<input type="text" name="question" id="question" placeholder="Enter Question" />
+				</div>
+				<div class="form-control">
+					<label for="answer">Answer</label>
+					<input type="text" name="answer" id="answer" placeholder="Enter Answer" />
+				</div>
+
+				<button class="add-card-btn">Add</button>
+			</div>
+		</dAddiv>
+		<script src="./styles.js"></script>
+	</body>
+</html>
